@@ -15,8 +15,19 @@ function getComputerChoice() {
     else {
         computerAnswer = "scissor";
     }
-    console.log(randomNumber)
-    return console.log(computerAnswer);
-}
 
-getComputerChoice();
+    return computerAnswer;
+}
+getComputerChoice()
+
+function getHumanChoice() {
+    let humanInput = prompt("Please enter: rock, paper, or scissor").toLowerCase();
+
+    if (humanInput == "rock" || humanInput == "paper" || humanInput == "scissor"){
+        return humanInput;
+    }
+    else {
+        return console.log( "\""+humanInput+"\" is an invalid value. Please refresh the page and try again.");
+    }
+}
+getHumanChoice();
