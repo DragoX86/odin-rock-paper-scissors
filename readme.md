@@ -1,4 +1,4 @@
-# Odin Project Assignment #3 - Rock Paper Scissors:
+# [Odin Project Assignment #3 - Rock Paper Scissors:](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
 This assignment requires me to create a rock, paper, scissors game in JavaScript. The game will be played through the browser's developer console, so there is no need for me to style or create web GUI for the game.
 
 ## Challenges I Encountered and How I Solved Them:
