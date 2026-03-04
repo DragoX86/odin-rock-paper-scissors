@@ -72,7 +72,7 @@ function playGame(roundAmount = 5) {
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
     playRound(humanSelection, computerSelection);
-    console.log(`Round [${i}/${playAmount}] --- Your Score: ${humanScore} Computer Score: ${computerScore}`)
+    console.log(`Round [${i}/${roundAmount}] --- Your Score: ${humanScore} Computer Score: ${computerScore}`)
   }
   
   // Decides Winner of whole game
